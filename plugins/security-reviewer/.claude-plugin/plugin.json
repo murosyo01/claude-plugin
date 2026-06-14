@@ -1,0 +1,11 @@
+{
+  "name": "security-reviewer",
+  "version": "0.1.0",
+  "description": "OWASP Top 10・シークレット検出・インジェクション・SSRF・不適切な暗号など、セキュリティ脆弱性を専門的に検出し重大度別（CRITICAL/HIGH/MEDIUM/LOW）に指摘と APPROVE / WARNING / BLOCK の判定を返す。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["security", "owasp", "vulnerability", "secrets", "injection", "ssrf", "code-review"]
+}

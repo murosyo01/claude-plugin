@@ -1,0 +1,9 @@
+{
+  "name": "docker-patterns",
+  "version": "0.1.0",
+  "description": "Docker and Docker Compose best practices for local development, container security, networking, and multi-service orchestration.",
+  "author": {
+    "name": "murosyo01"
+  },
+  "keywords": ["docker", "docker-compose", "containers", "devops", "local-development"]
+}

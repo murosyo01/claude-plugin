@@ -1,0 +1,11 @@
+{
+  "name": "code-simplifier",
+  "version": "0.1.0",
+  "description": "振る舞いを完全に保ったまま、最近変更されたコードを明確さ・一貫性・保守性の観点で簡潔化する。構造の整理・可読性の向上・品質問題の除去を担当する。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["code-simplification", "refactoring", "readability", "maintainability", "cleanup", "quality"]
+}

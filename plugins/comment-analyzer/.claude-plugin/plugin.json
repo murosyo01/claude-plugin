@@ -1,0 +1,11 @@
+{
+  "name": "comment-analyzer",
+  "version": "0.1.0",
+  "description": "コードコメントを正確性・完全性・長期的価値・誤解を招く要素の観点で分析する。フロントエンドファイル（HTML/JSX/TSX/Vue/Svelte/CSS等）のコメントはブラウザ検証ツールで閲覧されるため実際に削除する。非フロントエンドはアドバイザリ指摘のみ返す。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["comments", "documentation", "code-quality", "comment-rot", "maintainability", "analysis"]
+}

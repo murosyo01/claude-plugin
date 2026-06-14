@@ -1,0 +1,11 @@
+{
+  "name": "code-explorer",
+  "version": "0.1.0",
+  "description": "LSPを活用して既存コードベースの実行パス・依存関係・アーキテクチャ層を深く分析するプラグイン。新機能を実装する前の調査、参照関係のマッピング、呼び出しチェーンの追跡に特化する。ファイルは変更しない。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["code-exploration", "lsp", "dependency-analysis", "codebase", "call-graph", "refactoring"]
+}

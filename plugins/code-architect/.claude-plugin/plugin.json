@@ -1,0 +1,11 @@
+{
+  "name": "code-architect",
+  "version": "0.1.0",
+  "description": "既存コードベースのパターンを分析し、具体的なファイル・インターフェース・データフロー・ビルド順序を含む実装ブループリントを提供するプラグイン。「どのファイルに何を実装すればいい？」「ビルド順序を決めて」に答える。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["blueprint", "implementation", "planning", "code-design", "build-order", "codebase"]
+}

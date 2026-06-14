@@ -1,0 +1,11 @@
+{
+  "name": "code-reviewer",
+  "version": "0.1.0",
+  "description": "git diff またはファイルを読み込み、セキュリティ・品質・パフォーマンス・ベストプラクティスの観点でコードをレビューする。重大度別（CRITICAL/HIGH/MEDIUM/LOW）に指摘を分類し APPROVE / WARNING / BLOCK の判定を返す。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["code-review", "security", "quality", "performance", "best-practices", "git"]
+}

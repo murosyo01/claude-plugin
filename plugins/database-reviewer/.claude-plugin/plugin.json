@@ -1,0 +1,11 @@
+{
+  "name": "database-reviewer",
+  "version": "0.1.0",
+  "description": "PostgreSQL・MySQL のクエリ最適化・スキーマ設計・インデックス・RLS/権限・マイグレーション安全性をレビューし、重大度別（CRITICAL/HIGH/MEDIUM/LOW）に指摘と APPROVE/WARNING/BLOCK 判定を返す。Supabase ベストプラクティスを取り込む。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["database", "postgresql", "mysql", "sql", "query-optimization", "migrations", "rls", "code-review"]
+}

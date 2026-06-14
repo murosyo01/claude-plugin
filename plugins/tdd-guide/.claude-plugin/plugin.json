@@ -1,0 +1,11 @@
+{
+  "name": "tdd-guide",
+  "version": "0.1.0",
+  "description": "テストファーストのTDD（Red-Green-Refactor）を徹底し、ユニット/統合/E2Eのテスト設計・エッジケース網羅・80%以上のカバレッジを支援する。言語非依存の原則とGitチェックポイント規律を含む。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["tdd", "testing", "test-driven-development", "unit-test", "e2e", "coverage", "quality"]
+}

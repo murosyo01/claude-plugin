@@ -1,0 +1,147 @@
+{
+  "name": "murosyo-claude-plugin",
+  "owner": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Codeのプラグイン集。",
+    "version": "0.1.0",
+    "license": "MIT",
+    "keywords": [
+      "architecture",
+      "code-review",
+      "code-exploration",
+      "code-simplification",
+      "design",
+      "blueprint",
+      "tdd",
+      "testing",
+      "security",
+      "owasp",
+      "comments",
+      "networking",
+      "database",
+      "postgresql",
+      "mysql",
+      "sql",
+      "migrations"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "architect",
+      "source": "./plugins/architect",
+      "description": "システム設計・スケーラビリティ評価・トレードオフ分析・ADR作成を支援するアーキテクチャプラグイン。",
+      "version": "0.1.0",
+      "category": "architecture"
+    },
+    {
+      "name": "code-architect",
+      "source": "./plugins/code-architect",
+      "description": "既存コードベースのパターンを分析し、具体的なファイル・インターフェース・ビルド順序を含む実装ブループリントを提供する。",
+      "version": "0.1.0",
+      "category": "architecture"
+    },
+    {
+      "name": "code-reviewer",
+      "source": "./plugins/code-reviewer",
+      "description": "セキュリティ・品質・パフォーマンスの観点でコードをレビューし、重大度別に指摘と APPROVE/WARNING/BLOCK 判定を返す。",
+      "version": "0.1.0",
+      "category": "quality"
+    },
+    {
+      "name": "code-explorer",
+      "source": "./plugins/code-explorer",
+      "description": "LSPを活用して実行パス・依存関係・アーキテクチャ層を深く分析する。ファイルは変更しない。",
+      "version": "0.1.0",
+      "category": "exploration",
+      "lspServers": {
+        "typescript": {
+          "command": "typescript-language-server",
+          "args": ["--stdio"],
+          "extensionToLanguage": {
+            ".ts": "typescript",
+            ".tsx": "typescriptreact",
+            ".js": "javascript",
+            ".jsx": "javascriptreact",
+            ".mts": "typescript",
+            ".cts": "typescript",
+            ".mjs": "javascript",
+            ".cjs": "javascript"
+          }
+        },
+        "pyright": {
+          "command": "pyright-langserver",
+          "args": ["--stdio"],
+          "extensionToLanguage": {
+            ".py": "python",
+            ".pyi": "python"
+          }
+        },
+        "intelephense": {
+          "command": "intelephense",
+          "args": ["--stdio"],
+          "extensionToLanguage": {
+            ".php": "php"
+          }
+        },
+        "gopls": {
+          "command": "gopls",
+          "extensionToLanguage": {
+            ".go": "go"
+          }
+        },
+        "jdtls": {
+          "command": "jdtls",
+          "extensionToLanguage": {
+            ".java": "java"
+          },
+          "startupTimeout": 120000
+        }
+      }
+    },
+    {
+      "name": "code-simplifier",
+      "source": "./plugins/code-simplifier",
+      "description": "振る舞いを保ったままコードを明確さ・一貫性・保守性の観点で簡潔化する。最近変更されたコードを対象とする。",
+      "version": "0.1.0",
+      "category": "quality"
+    },
+    {
+      "name": "tdd-guide",
+      "source": "./plugins/tdd-guide",
+      "description": "テストファーストのTDD（Red-Green-Refactor）を徹底し、ユニット/統合/E2Eのテスト設計・エッジケース網羅・80%以上のカバレッジを支援する。Gitチェックポイント規律と言語非依存のテスト/モックパターンを含む。",
+      "version": "0.1.0",
+      "category": "quality"
+    },
+    {
+      "name": "security-reviewer",
+      "source": "./plugins/security-reviewer",
+      "description": "OWASP Top 10・シークレット検出・インジェクション・SSRF・不適切な暗号などのセキュリティ脆弱性を専門的に検出し、重大度別（CRITICAL/HIGH/MEDIUM/LOW）に指摘と APPROVE / WARNING / BLOCK の判定を返す。",
+      "version": "0.1.0",
+      "category": "security"
+    },
+    {
+      "name": "comment-analyzer",
+      "source": "./plugins/comment-analyzer",
+      "description": "コードコメントを正確性・完全性・長期的価値・誤解を招く要素の観点で分析する。フロントエンドファイル（HTML/JSX/TSX/Vue/Svelte/CSS等）のコメントはブラウザ検証ツールで閲覧されるため実際に削除する。非フロントエンドはアドバイザリ指摘のみ返す。",
+      "version": "0.1.0",
+      "category": "quality"
+    },
+    {
+      "name": "network-architect",
+      "source": "./plugins/network-architect",
+      "description": "エンタープライズ・マルチサイトのネットワーク設計を要件から作成し、設定検証・BGP診断・インターフェース健全性・IOSパターン・SSH自動化の各スキルへ詳細を委譲する。設計とレビューに特化し、設定変更の実行は行わない。",
+      "version": "0.1.0",
+      "category": "networking"
+    },
+    {
+      "name": "database-reviewer",
+      "source": "./plugins/database-reviewer",
+      "description": "PostgreSQL・MySQL のクエリ最適化・スキーマ設計・インデックス・マイグレーション安全性・RLS/権限をレビューし、重大度別に指摘と APPROVE/WARNING/BLOCK 判定を返す。",
+      "version": "0.1.0",
+      "category": "quality"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "architect",
+  "version": "0.1.0",
+  "description": "システム設計・スケーラビリティ評価・トレードオフ分析・ADR作成を支援するアーキテクチャプラグイン。新機能の設計方針の相談、技術的負債のレビュー、大規模リファクタリングの計画に使用する。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["architecture", "design", "adr", "scalability", "refactoring", "system-design"]
+}

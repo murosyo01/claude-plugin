@@ -1,0 +1,11 @@
+{
+  "name": "network-architect",
+  "version": "0.1.0",
+  "description": "エンタープライズ・マルチサイトのネットワーク設計を要件から作成し、設定検証・BGP診断・インターフェース健全性・IOS パターン・SSH 自動化の各スキルへ詳細を委譲する。設計とレビューに特化し、設定変更の実行は行わない。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["networking", "network-design", "bgp", "cisco-ios", "netmiko", "config-validation", "troubleshooting"]
+}
