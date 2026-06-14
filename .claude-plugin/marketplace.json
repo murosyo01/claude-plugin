@@ -25,7 +25,11 @@
       "postgresql",
       "mysql",
       "sql",
-      "migrations"
+      "migrations",
+      "docker",
+      "docker-compose",
+      "containers",
+      "devops"
     ]
   },
   "plugins": [
@@ -142,6 +146,13 @@
       "description": "PostgreSQL・MySQL のクエリ最適化・スキーマ設計・インデックス・マイグレーション安全性・RLS/権限をレビューし、重大度別に指摘と APPROVE/WARNING/BLOCK 判定を返す。",
       "version": "0.1.0",
       "category": "quality"
+    },
+    {
+      "name": "docker-patterns",
+      "source": "./plugins/docker-patterns",
+      "description": "ローカル開発・コンテナセキュリティ・ネットワーキング・ボリューム戦略・マルチサービスオーケストレーションに関する Docker / Docker Compose のベストプラクティスを提供する。",
+      "version": "0.1.0",
+      "category": "devops"
     }
   ]
 }
