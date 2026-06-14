@@ -1,0 +1,11 @@
+{
+  "name": "docker-patterns",
+  "version": "0.1.0",
+  "description": "ローカル開発・コンテナセキュリティ・ネットワーキング・ボリューム戦略・マルチサービスオーケストレーションに関する Docker / Docker Compose のベストプラクティスを提供する。",
+  "author": {
+    "name": "murosyo01",
+    "email": "murozuka75@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["docker", "docker-compose", "containers", "devops", "local-development"]
+}
